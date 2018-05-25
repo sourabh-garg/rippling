@@ -1,0 +1,78 @@
+@import '../../styles/color';
+
+
+
+  .navbar{
+    background-color: #00BCD4;
+    padding: 0 5%;
+
+  }
+
+
+  .logo{
+    padding-bottom: 50%;
+
+  }
+
+  .logo_width{
+    padding: 20px 0;
+    width: 150px;
+    display: inline-block;
+
+    img{
+      width: 100%;
+    }
+
+  }
+
+  .navLinks{
+
+    margin-left: auto;
+    display: flex;
+
+    a{
+      margin-left: 40px;
+      font-size: 16px;
+      color: white;
+
+    }
+
+  }
+
+  .navLinks_active{
+    color: black !important;
+  }
+
+  .nav_abs{
+    background-color: white;
+    z-index: 4;
+
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    .navLinks{
+      display: none !important;
+    }
+
+  .logo_width{
+    margin: auto;
+    width: 110px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
